@@ -1,0 +1,9 @@
+1.Install Xampp on your computer
+2.Copy the project Folder into the "htdocs" directory (C:\xampp\htdocs\Login_System).
+3.Create a Database Name "login_system"
+4.Import the sql file (login_system.sql) to the created database 
+5.Open config/db.php and set database credentials:
+   $conn = mysqli_connect("localhost","root","","your_database_name");
+6.Open browser and navigate to: http://localhost/project_name/signup.php to create a new account.
+7.Use login.php to login and access dashboard.php.
+
